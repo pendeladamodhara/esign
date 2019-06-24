@@ -18,6 +18,7 @@ public class HytrixClientExampleApplication {
 
 	@GetMapping("/client")
 	public String getMessage() {
+		System.out.println("entered into getmessage method");
 		String url = "http://localhost:2018/getMessage";
 		RestTemplate template = new RestTemplate();
 		return template.getForEntity(url, String.class).getBody();
