@@ -11,7 +11,7 @@ public class HytrixClientExampleApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		Sys
+		System.out.println("");
 	}
 
 }
